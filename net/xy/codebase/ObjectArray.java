@@ -129,4 +129,9 @@ public class ObjectArray {
     public int getLastIndex() {
         return lastIndex - 1;
     }
+
+    public void toType(final Object[] objs) {
+        cap();
+        System.arraycopy(data, 0, objs, 0, data.length);
+    }
 }
