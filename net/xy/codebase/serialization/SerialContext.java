@@ -32,6 +32,8 @@ public class SerialContext {
     @SuppressWarnings("rawtypes")
     public final List<Class> classes;
 
+    // TODO make performancetest java serial versus own
+
     /**
      * constructs the class index
      * 
